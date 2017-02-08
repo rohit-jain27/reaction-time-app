@@ -1,0 +1,23 @@
+.gridContainer {
+  width: 500px;
+  height: 500px;
+}
+
+.grid {
+  width: 100%;
+  height: 100%;
+  background-color: #9d9d9d;
+  position: relative
+}
+
+.hitMarker {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+}
+
+.hitMarker--hidden {
+  display: none;
+}
